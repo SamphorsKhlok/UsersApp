@@ -9,6 +9,7 @@ import FormGroup from 'react-bootstrap/lib/FormGroup';
 import ControlLabel from 'react-bootstrap/lib/ControlLabel';
 import Badge from 'react-bootstrap/lib/Badge';
 import CurrentPosition from './CurrentPosition'
+import SocialNetworkLink from './SocialNetworkLink'
 
 
 
@@ -28,6 +29,7 @@ class ItemDetail extends Component {
       </FormGroup>;
     }
   }
+
   render() {
     // let badgesList = this.props.selectedItem.focus.map(item=> {
     //   return (<p> {item} <Badge> {item}</Badge></p>);
@@ -50,15 +52,6 @@ class ItemDetail extends Component {
                 </Col>
                 <Col sm={10}>
                   <FormControl type="email" value={this.props.selectedItem.email} />
-                </Col>
-              </FormGroup>
-
-              <FormGroup controlId="linkedin">
-                <Col componentClass={ControlLabel} sm={2}>
-                  Linkedin
-                </Col>
-                <Col sm={10}>
-                  <FormControl type="text" value={this.props.selectedItem.linkedin_url}/>
                 </Col>
               </FormGroup>
 
@@ -109,6 +102,9 @@ class ItemDetail extends Component {
 
               {/*conditional render if no position available*/}
               {this.showCurrentPosition()}
+
+               {/*handle multiple social network links*/}
+              <SocialNetworkLink profile={this.props.selectedItem}/>
 
               <FormGroup controlId="focus">
                 <Col componentClass={ControlLabel} sm={2}>

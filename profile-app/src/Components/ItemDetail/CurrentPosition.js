@@ -14,7 +14,7 @@ class CurrentPosition extends Component {
             Current Position
           </Col>
           <Col sm={10}>
-            <FormControl type="text" value={this.props.position.position_title }/>
+            <FormControl type="text" value={this.props.position.position_title}/>
           </Col>
         </FormGroup>
         <FormGroup controlId="company_name">
