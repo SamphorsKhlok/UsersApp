@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Button from 'react-bootstrap/lib/Button';
 
 class ItemList extends Component {
 
@@ -12,7 +13,7 @@ class ItemList extends Component {
     return (
       <div className="ItemList">
         {this.props.item.fullname}
-        <button onClick={this.showItemDetail.bind(this,this.props.item.id)}>View Detail</button>
+        <Button bsStyle="info" onClick={this.showItemDetail.bind(this,this.props.item.id)}>View Detail</Button>
       </div>
     );
   }

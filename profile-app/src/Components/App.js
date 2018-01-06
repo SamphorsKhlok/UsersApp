@@ -3,6 +3,8 @@ import List from './List/List';
 import './App.css';
 import ItemDetail from './ItemDetail/ItemDetail'
 import Data from './../Data/list.json';
+import Col from 'react-bootstrap/lib/Col';
+import Panel from 'react-bootstrap/lib/Panel';
 
 class App extends Component {
   constructor (){
@@ -33,9 +35,19 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <strong>App Component</strong><br/>
-        <List items={this.state.items} onSelect={this.handleSelect.bind(this)}/>
-        <ItemDetail selectedItem={this.state.selectedItem}/>
+        <Panel bsStyle="primary">
+          <Panel.Heading>
+            <Panel.Title componentClass="h3">Users Profile</Panel.Title>
+          </Panel.Heading>
+          <Panel.Body>
+            <Col sm={6} md={4}>
+              <List items={this.state.items} onSelect={this.handleSelect.bind(this)}/>
+            </Col>
+            <Col sm={6} md={8}>
+              <ItemDetail selectedItem={this.state.selectedItem}/>
+            </Col>
+          </Panel.Body>
+        </Panel>
       </div>
     );
   }
