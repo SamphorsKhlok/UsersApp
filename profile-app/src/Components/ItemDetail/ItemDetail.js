@@ -8,15 +8,31 @@ import FormControl from 'react-bootstrap/lib/FormControl';
 import FormGroup from 'react-bootstrap/lib/FormGroup';
 import ControlLabel from 'react-bootstrap/lib/ControlLabel';
 import Badge from 'react-bootstrap/lib/Badge';
+import CurrentPosition from './CurrentPosition'
 
 
 
 class ItemDetail extends Component {
 
+  showCurrentPosition(){
+    if(this.props.selectedItem.current_position){
+      return <CurrentPosition position={this.props.selectedItem.current_position}/>;
+    }else{
+      return <FormGroup>
+        <Col componentClass={ControlLabel} sm={2}>
+          Current Position
+        </Col>
+        <Col sm={10}>
+          <FormControl type="text" value="Not Available"/>
+        </Col>
+      </FormGroup>;
+    }
+  }
   render() {
     // let badgesList = this.props.selectedItem.focus.map(item=> {
     //   return (<p> {item} <Badge> {item}</Badge></p>);
     // });
+
 
     return (
       <div className="ItemDetail">
@@ -73,7 +89,7 @@ class ItemDetail extends Component {
                 </Col>
               </FormGroup>
 
-              <FormGroup controlId="nationality">
+              <FormGroup controlId="age">
                 <Col componentClass={ControlLabel} sm={2}>
                   Age
                 </Col>
@@ -82,7 +98,7 @@ class ItemDetail extends Component {
                 </Col>
               </FormGroup>
 
-              <FormGroup controlId="nationality">
+              <FormGroup controlId="experience">
                 <Col componentClass={ControlLabel} sm={2}>
                   Experience
                 </Col>
@@ -91,32 +107,8 @@ class ItemDetail extends Component {
                 </Col>
               </FormGroup>
 
-              <FormGroup controlId="nationality">
-                <Col componentClass={ControlLabel} sm={2}>
-                  Current Position
-                </Col>
-                <Col sm={10}>
-                  <FormControl type="text" value={this.props.selectedItem.current_position.position_title}/>
-                </Col>
-              </FormGroup>
-
-              <FormGroup controlId="nationality">
-                <Col componentClass={ControlLabel} sm={2}>
-                  Current Company
-                </Col>
-                <Col sm={10}>
-                  <FormControl type="text" value={this.props.selectedItem.current_position.position_company_name}/>
-                </Col>
-              </FormGroup>
-
-              <FormGroup controlId="nationality">
-                <Col componentClass={ControlLabel} sm={2}>
-                  Duration
-                </Col>
-                <Col sm={10}>
-                  <FormControl type="text" value={this.props.selectedItem.current_position.months}/>
-                </Col>
-              </FormGroup>
+              {/*conditional render if no position available*/}
+              {this.showCurrentPosition()}
 
               <FormGroup controlId="focus">
                 <Col componentClass={ControlLabel} sm={2}>
