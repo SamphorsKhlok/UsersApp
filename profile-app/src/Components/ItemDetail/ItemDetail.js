@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Panel from 'react-bootstrap/lib/Panel';
 import Col from 'react-bootstrap/lib/Col';
 import Button from 'react-bootstrap/lib/Button';
-import Checkbox from 'react-bootstrap/lib/Checkbox';
+import Well from 'react-bootstrap/lib/Well';
 import Form from 'react-bootstrap/lib/Form';
 import FormControl from 'react-bootstrap/lib/FormControl';
 import FormGroup from 'react-bootstrap/lib/FormGroup';
@@ -105,9 +105,12 @@ class ItemDetail extends Component {
               {/*to display focus as badges properly*/}
               <FocusList focus={this.props.selectedItem.focus} focus_score={this.props.selectedItem.focus_score}/>
 
-              <FormGroup>
-                <Col smOffset={2} sm={10}>
-                  <Checkbox>Remember me</Checkbox>
+              <FormGroup controlId="highlight">
+                <Col componentClass={ControlLabel} sm={2}>
+                  Highlight
+                </Col>
+                <Col sm={10}>
+                  <Well>{this.props.selectedItem.highlight?this.props.selectedItem.highlight:'N/A'}</Well>
                 </Col>
               </FormGroup>
 
