@@ -1,27 +1,22 @@
 import React, { Component } from 'react';
-import Data from './../../Data/list.json';
 import ItemList from './../ItemList/ItemList';
 
 class List extends Component {
-  constructor (){
-    super();
-    this.state = {list:[]}
-  }
 
-  componentWillMount(){
-    this.setState({
-      list: Data.result
-    })
+  handleSelect(id){
+    this.props.onSelect(id);
+    console.log("list selected is "+ id);
   }
 
   render() {
-    console.log(this.state.list);
+    let items = this.props.items;
     let itemList;
+    //console.log(items);
 
 
-    if(this.state.list){
-      itemList = this.state.list.map(item => {
-        return <ItemList key={item.id} item={item}/>
+    if(items){
+      itemList = items.map(item => {
+        return <ItemList key={item.id} item={item} onSelect={this.handleSelect.bind(this)}/>
       });
     }else {
       itemList = "Empty List";
@@ -29,7 +24,7 @@ class List extends Component {
 
     return (
       <div className="List">
-        list item here
+        list item here <br/>
         {itemList}
       </div>
     );
