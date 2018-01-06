@@ -1,0 +1,8 @@
+.List {
+    padding: 0px;
+
+}
+
+.List > panel-body {
+    padding: 0px;
+}

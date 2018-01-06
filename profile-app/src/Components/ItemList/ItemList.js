@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import Button from 'react-bootstrap/lib/Button';
+import Image from 'react-bootstrap/lib/Image';
+import Col from 'react-bootstrap/lib/Col';
+import Label from 'react-bootstrap/lib/Label';
+import './ItemList.css';
 
 class ItemList extends Component {
 
@@ -12,8 +16,13 @@ class ItemList extends Component {
   render() {
     return (
       <div className="ItemList">
-        {this.props.item.fullname}
-        <Button bsStyle="info" onClick={this.showItemDetail.bind(this,this.props.item.id)}>View Detail</Button>
+        <Col sm={2} md={3}>
+          <Image src={this.props.item.image_url} alt="NO IMAGE" circle responsive/>
+        </Col>
+        <div>
+          <h4><Label bsStyle="primary">{this.props.item.fullname}</Label></h4>
+          <Button bsStyle="default" bsSize="small" onClick={this.showItemDetail.bind(this,this.props.item.id)}>View Detail</Button>
+        </div>
       </div>
     );
   }

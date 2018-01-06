@@ -47,6 +47,7 @@ class App extends Component {
               <ItemDetail selectedItem={this.state.selectedItem}/>
             </Col>
           </Panel.Body>
+          <Panel.Footer></Panel.Footer>
         </Panel>
       </div>
     );
