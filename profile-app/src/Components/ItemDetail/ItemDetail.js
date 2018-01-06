@@ -7,9 +7,9 @@ import Form from 'react-bootstrap/lib/Form';
 import FormControl from 'react-bootstrap/lib/FormControl';
 import FormGroup from 'react-bootstrap/lib/FormGroup';
 import ControlLabel from 'react-bootstrap/lib/ControlLabel';
-import Badge from 'react-bootstrap/lib/Badge';
 import CurrentPosition from './CurrentPosition'
 import SocialNetworkLink from './SocialNetworkLink'
+import FocusList from './FocusList'
 
 
 
@@ -31,10 +31,6 @@ class ItemDetail extends Component {
   }
 
   render() {
-    // let badgesList = this.props.selectedItem.focus.map(item=> {
-    //   return (<p> {item} <Badge> {item}</Badge></p>);
-    // });
-
 
     return (
       <div className="ItemDetail">
@@ -103,17 +99,11 @@ class ItemDetail extends Component {
               {/*conditional render if no position available*/}
               {this.showCurrentPosition()}
 
-               {/*handle multiple social network links*/}
+              {/*handle multiple social network links*/}
               <SocialNetworkLink profile={this.props.selectedItem}/>
 
-              <FormGroup controlId="focus">
-                <Col componentClass={ControlLabel} sm={2}>
-                  Focus
-                </Col>
-                <Col sm={10}>
-                  {/*{badgesList}*/}
-                </Col>
-              </FormGroup>
+              {/*to display focus as badges properly*/}
+              <FocusList focus={this.props.selectedItem.focus} focus_score={this.props.selectedItem.focus_score}/>
 
               <FormGroup>
                 <Col smOffset={2} sm={10}>

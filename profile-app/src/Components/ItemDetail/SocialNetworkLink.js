@@ -10,7 +10,7 @@ class SocialNetworkLink extends Component {
 
   render() {
     let urlComponentList = null;
-    let urlList = new Array();
+    let urlList = [];
 
     if(this.props.profile.linkedin_url){
       urlList.push(new Array("Linkedin", this.props.profile.linkedin_url));
