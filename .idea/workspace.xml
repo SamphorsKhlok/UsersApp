@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d39b16b7-4a2c-46dd-b486-0a659afcefb1" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/profile-app/src/Resources/noimage.png" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/profile-app/src/Components/ItemDetail/CurrentPosition.js" afterPath="$PROJECT_DIR$/profile-app/src/Components/ItemDetail/CurrentPosition.js" />
+      <change beforePath="$PROJECT_DIR$/profile-app/src/Components/ItemDetail/FocusList.js" afterPath="$PROJECT_DIR$/profile-app/src/Components/ItemDetail/FocusList.js" />
       <change beforePath="$PROJECT_DIR$/profile-app/src/Components/ItemDetail/ItemDetail.js" afterPath="$PROJECT_DIR$/profile-app/src/Components/ItemDetail/ItemDetail.js" />
+      <change beforePath="$PROJECT_DIR$/profile-app/src/Components/ItemDetail/SocialNetworkLink.js" afterPath="$PROJECT_DIR$/profile-app/src/Components/ItemDetail/SocialNetworkLink.js" />
+      <change beforePath="$PROJECT_DIR$/profile-app/src/Components/ItemList/ItemList.css" afterPath="$PROJECT_DIR$/profile-app/src/Components/ItemList/ItemList.css" />
+      <change beforePath="$PROJECT_DIR$/profile-app/src/Components/ItemList/ItemList.js" afterPath="$PROJECT_DIR$/profile-app/src/Components/ItemList/ItemList.js" />
+      <change beforePath="$PROJECT_DIR$/profile-app/src/Components/List/List.js" afterPath="$PROJECT_DIR$/profile-app/src/Components/List/List.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,31 +24,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ItemDetail.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ItemDetail.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profile-app/src/Components/ItemDetail/ItemDetail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="131" column="23" lean-forward="true" selection-start-line="131" selection-start-column="23" selection-end-line="131" selection-end-column="23" />
+            <state relative-caret-position="144">
+              <caret line="8" column="60" lean-forward="false" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
-                <marker date="1515263231047" expanded="true" signature="1099:4646" ph="..." />
-                <marker date="1515263231047" expanded="true" signature="1115:4628" ph="..." />
-                <marker date="1515263231047" expanded="true" signature="1141:1290" ph="..." />
-                <marker date="1515263231047" expanded="true" signature="1187:1263" ph="..." />
-                <marker date="1515263231047" expanded="true" signature="1313:4616" ph="..." />
-                <marker date="1515263231047" expanded="true" signature="1343:4592" ph="..." />
-                <marker date="1515263231047" expanded="true" signature="1387:1658" ph="..." />
-                <marker date="1515263231047" expanded="true" signature="1704:1980" ph="..." />
-                <marker date="1515263231047" expanded="true" signature="1930:1968" ph="..." />
-                <marker date="1515263231047" expanded="true" signature="2028:2303" ph="..." />
-                <marker date="1515263231047" expanded="true" signature="2253:2291" ph="..." />
-                <marker date="1515263231047" expanded="true" signature="2354:2630" ph="..." />
-                <marker date="1515263231047" expanded="true" signature="2580:2618" ph="..." />
-                <marker date="1515263231047" expanded="true" signature="2673:2938" ph="..." />
-                <marker date="1515263231047" expanded="true" signature="2888:2926" ph="..." />
-                <marker date="1515263231047" expanded="true" signature="2988:3267" ph="..." />
-                <marker date="1515263231047" expanded="true" signature="3217:3255" ph="..." />
+                <marker date="1515282598565" expanded="true" signature="1099:4784" ph="..." />
+                <marker date="1515282598565" expanded="true" signature="1126:4766" ph="..." />
+                <marker date="1515282598565" expanded="true" signature="1152:1301" ph="..." />
+                <marker date="1515282598565" expanded="true" signature="1198:1274" ph="..." />
+                <marker date="1515282598565" expanded="true" signature="1324:4754" ph="..." />
+                <marker date="1515282598565" expanded="true" signature="1354:4730" ph="..." />
+                <marker date="1515282598565" expanded="true" signature="1398:1669" ph="..." />
+                <marker date="1515282598565" expanded="true" signature="1715:1991" ph="..." />
+                <marker date="1515282598565" expanded="true" signature="1941:1979" ph="..." />
+                <marker date="1515282598565" expanded="true" signature="2039:2314" ph="..." />
+                <marker date="1515282598565" expanded="true" signature="2264:2302" ph="..." />
+                <marker date="1515282598565" expanded="true" signature="2365:2675" ph="..." />
+                <marker date="1515282598565" expanded="true" signature="2625:2663" ph="..." />
+                <marker date="1515282598565" expanded="true" signature="2718:3014" ph="..." />
+                <marker date="1515282598565" expanded="true" signature="2964:3002" ph="..." />
+                <marker date="1515282598565" expanded="true" signature="3064:3381" ph="..." />
+                <marker date="1515282598565" expanded="true" signature="3331:3369" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CurrentPosition.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/profile-app/src/Components/ItemDetail/CurrentPosition.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -48,8 +65,8 @@
       <file leaf-file-name="single_candidate.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profile-app/src/Data/single_candidate.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            <state relative-caret-position="162">
+              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -59,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/profile-app/src/Data/list.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="155">
-              <caret line="66" column="18" lean-forward="false" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="18" />
+              <caret line="21" column="15" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -68,11 +85,11 @@
       <file leaf-file-name="SocialNetworkLink.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profile-app/src/Components/ItemDetail/SocialNetworkLink.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="589">
+              <caret line="42" column="38" lean-forward="true" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
-                <marker date="1515259709710" expanded="true" signature="2018:2058" ph="..." />
+                <marker date="1515267804335" expanded="true" signature="1946:1986" ph="..." />
               </folding>
             </state>
           </provider>
@@ -81,8 +98,8 @@
       <file leaf-file-name="FocusList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profile-app/src/Components/ItemDetail/FocusList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="192">
+              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -90,38 +107,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CurrentPosition.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profile-app/src/Components/ItemDetail/CurrentPosition.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="18" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profile-app/src/Components/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemList.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ItemList.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/profile-app/src/Components/ItemList/ItemList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="301">
+              <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="List.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/profile-app/src/Components/List/List.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemList.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/profile-app/src/Components/ItemList/ItemList.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="3" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -129,8 +142,8 @@
       <file leaf-file-name="List.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profile-app/src/Components/List/List.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="66">
+              <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -157,6 +170,9 @@
       <find>current_position</find>
       <find>highest_education</find>
       <find>high</find>
+      <find>kayo</find>
+      <find>jason</find>
+      <find>nation</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,14 +183,14 @@
       <list>
         <option value="$PROJECT_DIR$/profile-app/public/index.html" />
         <option value="$PROJECT_DIR$/profile-app/src/Components/App.js" />
-        <option value="$PROJECT_DIR$/profile-app/src/Components/List/List.css" />
-        <option value="$PROJECT_DIR$/profile-app/src/Components/ItemList/ItemList.css" />
-        <option value="$PROJECT_DIR$/profile-app/src/Components/List/List.js" />
         <option value="$PROJECT_DIR$/profile-app/src/Components/App.css" />
-        <option value="$PROJECT_DIR$/profile-app/src/Components/ItemList/ItemList.js" />
-        <option value="$PROJECT_DIR$/profile-app/src/Components/ItemDetail/CurrentPosition.js" />
-        <option value="$PROJECT_DIR$/profile-app/src/Components/ItemDetail/FocusList.js" />
         <option value="$PROJECT_DIR$/profile-app/src/Components/ItemDetail/SocialNetworkLink.js" />
+        <option value="$PROJECT_DIR$/profile-app/src/Components/ItemDetail/FocusList.js" />
+        <option value="$PROJECT_DIR$/profile-app/src/Components/List/List.js" />
+        <option value="$PROJECT_DIR$/profile-app/src/Components/List/List.css" />
+        <option value="$PROJECT_DIR$/profile-app/src/Components/ItemDetail/CurrentPosition.js" />
+        <option value="$PROJECT_DIR$/profile-app/src/Components/ItemList/ItemList.css" />
+        <option value="$PROJECT_DIR$/profile-app/src/Components/ItemList/ItemList.js" />
         <option value="$PROJECT_DIR$/profile-app/src/Components/ItemDetail/ItemDetail.js" />
       </list>
     </option>
@@ -262,13 +278,6 @@
               <item name="Components" type="462c0819:PsiDirectoryNode" />
               <item name="List" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="UsersApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UsersApp" type="462c0819:PsiDirectoryNode" />
-              <item name="profile-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -286,6 +295,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/profile-app/src/Resources" />
       <recent name="$PROJECT_DIR$/profile-app/src/Components/ItemDetail" />
       <recent name="$PROJECT_DIR$/profile-app/src/Data" />
     </key>
@@ -318,12 +328,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515198857720</updated>
-      <workItem from="1515198859414" duration="29229000" />
+      <workItem from="1515198859414" duration="36775000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29229000" />
+    <option name="totallyTimeSpent" value="36775000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -386,93 +396,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profile-app/src/Components/List/List.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profile-app/src/Components/ItemList/ItemList.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profile-app/src/Components/ItemList/ItemList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profile-app/src/Components/ItemDetail/CurrentPosition.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/profile-app/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profile-app/src/Components/ItemDetail/FocusList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profile-app/src/Components/List/List.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profile-app/src/Components/ItemDetail/SocialNetworkLink.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <marker date="1515259709710" expanded="true" signature="2018:2058" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profile-app/src/Data/single_candidate.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profile-app/src/Data/list.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="66" column="18" lean-forward="false" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -487,29 +414,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profile-app/src/Components/ItemDetail/ItemDetail.js">
+    <entry file="file://$PROJECT_DIR$/profile-app/src/Components/ItemDetail/SocialNetworkLink.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="131" column="23" lean-forward="true" selection-start-line="131" selection-start-column="23" selection-end-line="131" selection-end-column="23" />
+        <state relative-caret-position="589">
+          <caret line="42" column="38" lean-forward="true" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-            <marker date="1515263231047" expanded="true" signature="1099:4646" ph="..." />
-            <marker date="1515263231047" expanded="true" signature="1115:4628" ph="..." />
-            <marker date="1515263231047" expanded="true" signature="1141:1290" ph="..." />
-            <marker date="1515263231047" expanded="true" signature="1187:1263" ph="..." />
-            <marker date="1515263231047" expanded="true" signature="1313:4616" ph="..." />
-            <marker date="1515263231047" expanded="true" signature="1343:4592" ph="..." />
-            <marker date="1515263231047" expanded="true" signature="1387:1658" ph="..." />
-            <marker date="1515263231047" expanded="true" signature="1704:1980" ph="..." />
-            <marker date="1515263231047" expanded="true" signature="1930:1968" ph="..." />
-            <marker date="1515263231047" expanded="true" signature="2028:2303" ph="..." />
-            <marker date="1515263231047" expanded="true" signature="2253:2291" ph="..." />
-            <marker date="1515263231047" expanded="true" signature="2354:2630" ph="..." />
-            <marker date="1515263231047" expanded="true" signature="2580:2618" ph="..." />
-            <marker date="1515263231047" expanded="true" signature="2673:2938" ph="..." />
-            <marker date="1515263231047" expanded="true" signature="2888:2926" ph="..." />
-            <marker date="1515263231047" expanded="true" signature="2988:3267" ph="..." />
-            <marker date="1515263231047" expanded="true" signature="3217:3255" ph="..." />
+            <marker date="1515267804335" expanded="true" signature="1946:1986" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile-app/src/Data/list.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="21" column="15" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile-app/src/Data/single_candidate.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile-app/src/Components/List/List.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile-app/src/Components/ItemDetail/CurrentPosition.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile-app/src/Components/ItemDetail/FocusList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile-app/src/Components/List/List.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile-app/src/Components/ItemList/ItemList.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile-app/src/Components/ItemDetail/ItemDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="60" lean-forward="false" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+          <folding>
+            <marker date="1515282598565" expanded="true" signature="1099:4784" ph="..." />
+            <marker date="1515282598565" expanded="true" signature="1126:4766" ph="..." />
+            <marker date="1515282598565" expanded="true" signature="1152:1301" ph="..." />
+            <marker date="1515282598565" expanded="true" signature="1198:1274" ph="..." />
+            <marker date="1515282598565" expanded="true" signature="1324:4754" ph="..." />
+            <marker date="1515282598565" expanded="true" signature="1354:4730" ph="..." />
+            <marker date="1515282598565" expanded="true" signature="1398:1669" ph="..." />
+            <marker date="1515282598565" expanded="true" signature="1715:1991" ph="..." />
+            <marker date="1515282598565" expanded="true" signature="1941:1979" ph="..." />
+            <marker date="1515282598565" expanded="true" signature="2039:2314" ph="..." />
+            <marker date="1515282598565" expanded="true" signature="2264:2302" ph="..." />
+            <marker date="1515282598565" expanded="true" signature="2365:2675" ph="..." />
+            <marker date="1515282598565" expanded="true" signature="2625:2663" ph="..." />
+            <marker date="1515282598565" expanded="true" signature="2718:3014" ph="..." />
+            <marker date="1515282598565" expanded="true" signature="2964:3002" ph="..." />
+            <marker date="1515282598565" expanded="true" signature="3064:3381" ph="..." />
+            <marker date="1515282598565" expanded="true" signature="3331:3369" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile-app/src/Components/ItemList/ItemList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>

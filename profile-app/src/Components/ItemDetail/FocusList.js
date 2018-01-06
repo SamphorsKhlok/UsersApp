@@ -14,7 +14,7 @@ class FocusList extends Component {
     if(focus){
       focusList = focus.map(item =>{
         return <h5>
-          <Label style={styles.badgeItem} bsStyle="success">{item.toUpperCase()} <Badge>{focus_score[item].toFixed(2)*100}</Badge></Label>
+          <Label style={styles.badgeItem} bsStyle="success">{item.toUpperCase()} <Badge>{focus_score[item].toFixed(2)*100}%</Badge></Label>
         </h5>;
       });
 
@@ -41,7 +41,7 @@ class FocusList extends Component {
 
 const styles = {
   badgeItem :{
-    padding:5,
+    padding:7,
   }
 };
 

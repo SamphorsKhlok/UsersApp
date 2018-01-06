@@ -34,7 +34,7 @@ class ItemDetail extends Component {
 
     return (
       <div className="ItemDetail">
-        <Panel>
+        <Panel id="panel">
           <Panel.Heading>
             <Panel.Title componentClass="h3">
               {this.props.selectedItem.fullname}
@@ -74,7 +74,7 @@ class ItemDetail extends Component {
                   Nationality
                 </Col>
                 <Col sm={10}>
-                  <FormControl type="text" value={this.props.selectedItem.nation}/>
+                  <FormControl type="text" value={this.props.selectedItem.nation?this.props.selectedItem.nation:''}/>
                 </Col>
               </FormGroup>
 
@@ -83,7 +83,7 @@ class ItemDetail extends Component {
                   Age
                 </Col>
                 <Col sm={10}>
-                  <FormControl type="text" value={this.props.selectedItem.age}/>
+                  <FormControl type="text" value={this.props.selectedItem.age?this.props.selectedItem.age:''}/>
                 </Col>
               </FormGroup>
 
@@ -92,7 +92,7 @@ class ItemDetail extends Component {
                   Experience
                 </Col>
                 <Col sm={10}>
-                  <FormControl type="text" value={this.props.selectedItem.experience}/>
+                  <FormControl type="text" value={this.props.selectedItem.experience?this.props.selectedItem.experience:''}/>
                 </Col>
               </FormGroup>
 
@@ -116,16 +116,16 @@ class ItemDetail extends Component {
 
               <FormGroup>
                 <Col smOffset={2} sm={2}>
-                  <Button type="submit">Cancel</Button>
+                  <Button block type="submit">Cancel</Button>
                 </Col>
                 <Col sm={2}>
-                  <Button type="submit" bsStyle="danger">Delete</Button>
+                  <Button block type="submit" bsStyle="danger">Delete</Button>
                 </Col>
                 <Col sm={2}>
-                  <Button type="submit" bsStyle="success">Disable</Button>
+                  <Button block type="submit" bsStyle="warning">Disable</Button>
                 </Col>
                 <Col  sm={2}>
-                  <Button type="submit" bsStyle="primary">Save</Button>
+                  <Button block type="submit" bsStyle="primary">Save</Button>
                 </Col>
               </FormGroup>
             </Form>

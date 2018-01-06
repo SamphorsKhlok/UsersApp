@@ -13,35 +13,35 @@ class SocialNetworkLink extends Component {
     let urlList = [];
 
     if(this.props.profile.linkedin_url){
-      urlList.push(new Array("Linkedin", this.props.profile.linkedin_url));
+      urlList.push(["Linkedin", this.props.profile.linkedin_url]);
     }
 
     if(this.props.profile.facebook_url){
-      urlList.push(new Array("Facebook", this.props.profile.facebook_url));
+      urlList.push(["Facebook", this.props.profile.facebook_url]);
     }
 
     if(this.props.profile.twitter_url){
-      urlList.push(new Array("Twitter", this.props.profile.twitter_url));
+      urlList.push(["Twitter", this.props.profile.twitter_url]);
     }
 
     if(this.props.profile.angellist_url){
-      urlList.push(new Array("Angellist", this.props.profile.angellist_url));
+      urlList.push(["Angellist", this.props.profile.angellist_url]);
     }
 
     if(this.props.profile.stackoverflow_url){
-      urlList.push(new Array("Stackoverflow", this.props.profile.stackoverflow_url));
+      urlList.push(["Stackoverflow", this.props.profile.stackoverflow_url]);
     }
 
     if(this.props.profile.github_url){
-      urlList.push(new Array("Github", this.props.profile.github_url));
+      urlList.push(["Github", this.props.profile.github_url]);
     }
 
     if(this.props.profile.crunchbase_url){
-      urlList.push(new Array("Crunchbase", this.props.profile.crunchbase_url));
+      urlList.push(["Crunchbase", this.props.profile.crunchbase_url]);
     }
 
     if(this.props.profile.google_url){
-      urlList.push(new Array("Google", this.props.profile.google_url));
+      urlList.push(["Google", this.props.profile.google_url]);
     }
 
     urlComponentList = urlList.map(item =>{
