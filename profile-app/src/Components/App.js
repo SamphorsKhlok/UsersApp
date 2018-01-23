@@ -12,8 +12,10 @@ class App extends Component {
     super();
     this.state = {
       items:[],
+      tempItems:[],
       selectedItem:{}
     }
+    let tempItems;
   }
 
   componentWillMount(){
@@ -25,6 +27,7 @@ class App extends Component {
       data => {
         console.log(data);
         this.setState({
+          tempItems: data.data.result,
           items: data.data.result,
           selectedItem: data.data.result[0]
         })
@@ -45,24 +48,46 @@ class App extends Component {
 
   handleSearch(event){
     console.log('searching');
+    console.log('input'+ event.target.value);
 
-    let temp;
-    axios.get('http://localhost:3000/profile').then(
-      data => {
-        temp = data.data.result;
-      }
-    );
-    //console.log(temp);
-    //console.log(event.target.value);
+    let temp = this.state.items; // original value
+    let input = event.target.value;
+    // axios.get('http://localhost:3000/profile').then(
+    //   data => {
+    //     temp = data.data.result;
+    //
+    //     // console.log(" temp is " + temp);
+    //     // console.log(input);
+    //     //
+    //     // temp = temp.filter(item => {
+    //     //   console.log(item.experience);
+    //     //   if(item.experience){
+    //     //     return item.experience.indexOf(input) > -1;
+    //     //   }
+    //     // });
+    //     //
+    //     // if(temp){
+    //     //   this.setState({
+    //     //     items: temp,
+    //     //     selectedItem: temp[0]
+    //     //   });
+    //     // }
+    //   }
+    // );
+
+    console.log(" temp is " + temp);
+    console.log(input);
+
     temp = temp.filter(item => {
+      console.log(item.experience);
       if(item.experience){
-        return item.experience.indexOf(event.target.value) > -1;
+        return item.experience.indexOf(input) > -1;
       }
     });
 
     if(temp){
       this.setState({
-        items: temp,
+        tempItems: temp,
         selectedItem: temp[0]
       });
     }
@@ -78,7 +103,8 @@ class App extends Component {
           <Panel.Body>
             <Col sm={6} md={4}>
               <input type="text" onChange={this.handleSearch.bind(this)} placeholder="search experience"/>
-              <List items={this.state.items} onSelect={this.handleSelect.bind(this)}/>
+              {/*<List items={this.state.items} onSelect={this.handleSelect.bind(this)}/>*/}
+              <List items={this.state.tempItems} onSelect={this.handleSelect.bind(this)}/>
             </Col>
             <Col sm={6} md={8}>
               <ItemDetail selectedItem={this.state.selectedItem}/>

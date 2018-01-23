@@ -22,6 +22,7 @@ class List extends Component {
 
     return (
       <div className="List">
+
         <ListGroup>
           {itemList}
         </ListGroup>

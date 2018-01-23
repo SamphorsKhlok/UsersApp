@@ -15,6 +15,7 @@ import FocusList from './FocusList'
 
 class ItemDetail extends Component {
 
+
   showCurrentPosition(){
     if(this.props.selectedItem.current_position){
       return <CurrentPosition position={this.props.selectedItem.current_position}/>;
@@ -31,7 +32,31 @@ class ItemDetail extends Component {
   }
 
   render() {
+    let componentList = null;
+    let temp = this.props.selectedItem;
+    //console.log(temp);
 
+    if(temp) {
+      let list = [];
+      for (var key in temp) {
+        if (temp.hasOwnProperty(key) && temp[key] != null && (key.indexOf('id') == -1)) {
+          //console.log(key + " -> " + temp[key]);
+          list.push(new Array(key, temp[key]));
+        }
+      }
+
+      componentList = list.map(item => {
+        //console.log(item);
+        return <FormGroup>
+          <Col controlId={item[0]} componentClass={ControlLabel} sm={2}>
+            {item[0]}
+          </Col>
+          <Col sm={10}>
+            <FormControl type="text" value={item[1]}/>
+          </Col>
+        </FormGroup>;
+      });
+    }
     return (
       <div className="ItemDetail">
         <Panel id="panel">
@@ -42,59 +67,60 @@ class ItemDetail extends Component {
           </Panel.Heading>
           <Panel.Body>
             <Form horizontal>
-              <FormGroup controlId="Email">
-                <Col componentClass={ControlLabel} sm={2}>
-                  Email
-                </Col>
-                <Col sm={10}>
-                  <FormControl type="email" value={this.props.selectedItem.email} />
-                </Col>
-              </FormGroup>
+              {componentList}
+              {/*<FormGroup controlId="Email">*/}
+                {/*<Col componentClass={ControlLabel} sm={2}>*/}
+                  {/*Email*/}
+                {/*</Col>*/}
+                {/*<Col sm={10}>*/}
+                  {/*<FormControl type="email" value={this.props.selectedItem.email} />*/}
+                {/*</Col>*/}
+              {/*</FormGroup>*/}
 
-              <FormGroup controlId="career">
-                <Col componentClass={ControlLabel} sm={2}>
-                  Career
-                </Col>
-                <Col sm={10}>
-                  <FormControl type="text" value={this.props.selectedItem.career_path}/>
-                </Col>
-              </FormGroup>
+              {/*<FormGroup controlId="career">*/}
+                {/*<Col componentClass={ControlLabel} sm={2}>*/}
+                  {/*Career*/}
+                {/*</Col>*/}
+                {/*<Col sm={10}>*/}
+                  {/*<FormControl type="text" value={this.props.selectedItem.career_path}/>*/}
+                {/*</Col>*/}
+              {/*</FormGroup>*/}
 
-              <FormGroup controlId="location">
-                <Col componentClass={ControlLabel} sm={2}>
-                  Location
-                </Col>
-                <Col sm={10}>
-                  <FormControl type="text" value={this.props.selectedItem.location}/>
-                </Col>
-              </FormGroup>
+              {/*<FormGroup controlId="location">*/}
+                {/*<Col componentClass={ControlLabel} sm={2}>*/}
+                  {/*Location*/}
+                {/*</Col>*/}
+                {/*<Col sm={10}>*/}
+                  {/*<FormControl type="text" value={this.props.selectedItem.location}/>*/}
+                {/*</Col>*/}
+              {/*</FormGroup>*/}
 
-              <FormGroup controlId="nationality">
-                <Col componentClass={ControlLabel} sm={2}>
-                  Nationality
-                </Col>
-                <Col sm={10}>
-                  <FormControl type="text" value={this.props.selectedItem.nation?this.props.selectedItem.nation:''}/>
-                </Col>
-              </FormGroup>
+              {/*<FormGroup controlId="nationality">*/}
+                {/*<Col componentClass={ControlLabel} sm={2}>*/}
+                  {/*Nationality*/}
+                {/*</Col>*/}
+                {/*<Col sm={10}>*/}
+                  {/*<FormControl type="text" value={this.props.selectedItem.nation?this.props.selectedItem.nation:''}/>*/}
+                {/*</Col>*/}
+              {/*</FormGroup>*/}
 
-              <FormGroup controlId="age">
-                <Col componentClass={ControlLabel} sm={2}>
-                  Age
-                </Col>
-                <Col sm={10}>
-                  <FormControl type="text" value={this.props.selectedItem.age?this.props.selectedItem.age:''}/>
-                </Col>
-              </FormGroup>
+              {/*<FormGroup controlId="age">*/}
+                {/*<Col componentClass={ControlLabel} sm={2}>*/}
+                  {/*Age*/}
+                {/*</Col>*/}
+                {/*<Col sm={10}>*/}
+                  {/*<FormControl type="text" value={this.props.selectedItem.age?this.props.selectedItem.age:''}/>*/}
+                {/*</Col>*/}
+              {/*</FormGroup>*/}
 
-              <FormGroup controlId="experience">
-                <Col componentClass={ControlLabel} sm={2}>
-                  Experience
-                </Col>
-                <Col sm={10}>
-                  <FormControl type="text" value={this.props.selectedItem.experience?this.props.selectedItem.experience:''}/>
-                </Col>
-              </FormGroup>
+              {/*<FormGroup controlId="experience">*/}
+                {/*<Col componentClass={ControlLabel} sm={2}>*/}
+                  {/*Experience*/}
+                {/*</Col>*/}
+                {/*<Col sm={10}>*/}
+                  {/*<FormControl type="text" value={this.props.selectedItem.experience?this.props.selectedItem.experience:''}/>*/}
+                {/*</Col>*/}
+              {/*</FormGroup>*/}
 
               {/*conditional render if no position available*/}
               {this.showCurrentPosition()}
