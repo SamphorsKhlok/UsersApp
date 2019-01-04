@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d39b16b7-4a2c-46dd-b486-0a659afcefb1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Webservice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Webservice/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/profile-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/profile-app/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/profile-app/package-lock.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-212">
-              <caret line="8137" column="20" selection-start-line="8137" selection-start-column="5" selection-end-line="8137" selection-end-column="20" />
+            <state relative-caret-position="-14">
+              <caret line="9036" column="20" selection-start-line="9036" selection-start-column="20" selection-end-line="9036" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -235,12 +233,12 @@
       <workItem from="1516818270159" duration="249000" />
       <workItem from="1517273117114" duration="719000" />
       <workItem from="1518677781730" duration="326000" />
-      <workItem from="1546637357366" duration="299000" />
+      <workItem from="1546637357366" duration="436000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59967000" />
+    <option name="totallyTimeSpent" value="60104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -420,8 +418,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/profile-app/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-212">
-          <caret line="8137" column="20" selection-start-line="8137" selection-start-column="5" selection-end-line="8137" selection-end-column="20" />
+        <state relative-caret-position="-14">
+          <caret line="9036" column="20" selection-start-line="9036" selection-start-column="20" selection-end-line="9036" selection-end-column="20" />
         </state>
       </provider>
     </entry>
